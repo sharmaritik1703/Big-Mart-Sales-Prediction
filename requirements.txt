@@ -2,5 +2,4 @@ numpy==1.24.2
 packaging==20.4
 pandas==1.5.1
 scikit-learn==1.2.2
-streamlit==1.21.0
 pickle==4.0
