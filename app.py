@@ -5,7 +5,7 @@ import pickle
 import streamlit as st
 import time
 
-model = pickle.load(open('model.h5', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 st.header("Sales Predictor")
 
