@@ -1,5 +1,9 @@
+pip install sklearn
+pip install xgboost
+
 import numpy as np
 import pandas as pd
+
 import pickle
 import streamlit as st
 import time
