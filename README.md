@@ -1,2 +1,2 @@
-# Sales-Prediction
-A supervised learning trained model to predict overall sales of company
+# Big Mart Sales Prediction
+A machine learning model for predicting Big Mart Sales
