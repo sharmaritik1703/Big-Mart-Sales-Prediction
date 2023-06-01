@@ -6,7 +6,7 @@ import time
 
 model = pickle.load(open('model.pkl', 'rb'))
 
-st.header("Sales Predictor")
+st.header("Big Mart Sales Predictor")
 
 # <=== Columns ===>
 col1, col2, col3 = st.columns(3)
