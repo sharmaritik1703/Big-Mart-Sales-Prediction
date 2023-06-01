@@ -1,4 +1,3 @@
-# Import Dependencies
 import numpy as np
 import pandas as pd
 import pickle
@@ -41,10 +40,10 @@ with col1:
     values[0, 0] = item_types[item]
 
 with col2: 
-    values[0, 1] = st.number_input(label=f'{columns[1]}', min_value=0.0, max_value=21.35)
+    values[0, 1] = st.slider(label=f'{columns[1]}', min_value=0.0, max_value=21.35)
 
 with col3: 
-    values[0, 2] = st.number_input(label=f"{columns[2]}", min_value=0.0, max_value=277.0)
+    values[0, 2] = st.slider(label=f"{columns[2]}", min_value=0.0, max_value=277.0)
 
 with col4:
     fat = st.selectbox(f"{columns[3]}", options=fat_content.keys())
