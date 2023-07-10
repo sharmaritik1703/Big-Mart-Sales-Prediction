@@ -95,8 +95,7 @@ st.divider()
 
 def predict():
     pred_value = model.predict(values)[0]
-    with st.expander("Sales"):
-        st.progress(value=100)
-        st.subheader(f"Predicted Sales: {np.round(pred_value)}$")
+    st.progress(value=100)
+    st.subheader(f"Predicted Sales: {np.round(pred_value)}$")
 
 st.button(label='See Sales', on_click=predict)
