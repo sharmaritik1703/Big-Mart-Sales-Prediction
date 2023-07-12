@@ -14,7 +14,7 @@ col4, col5, col6 = st.columns(3)
 col7, col8, col9 = st.columns(3)
 
 # <=== Encoded Values for Features ===>
-fat_encode = {'Low Fat': 0, 'Regular': 1, 'LF': 2, 'reg': 3, 'low fat': 4}
+fat_encode = {'Low Fat': 0, 'Regular': 1}
 
 outlet_id = {'OUT027': 0, 'OUT013': 1, 'OUT049': 2, 'OUT046': 3, 'OUT035': 4, 
              'OUT045': 5, 'OUT018': 6, 'OUT017': 7, 'OUT010': 8, 'OUT019': 9
